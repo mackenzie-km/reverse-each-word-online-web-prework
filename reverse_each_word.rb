@@ -3,4 +3,7 @@ def reverse_each_word(string)
   sentence.each { |word|
   word.reverse!}
   sentence = sentence.join(" ")
+  
+  
+  
 end
