@@ -5,5 +5,3 @@ def reverse_each_word(string)
   sentence.join(" ")
   end
 end
-require "pry"
-binding.pry
