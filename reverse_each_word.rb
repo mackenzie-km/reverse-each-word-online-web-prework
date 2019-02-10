@@ -4,6 +4,6 @@ def reverse_each_word(string)
   sentence = string.split(" ")
   sentence.each do |word|
   new_sentence << word.reverse!
+  binding.pry
   end
 end
-binding.pry
