@@ -4,6 +4,10 @@ def reverse_each_word(string)
   word.reverse!}
   sentence = sentence.join(" ")
   
+  sentence = string.split(" ")
+  sentence.collect { |word|
+  word.reverse!}
+  sentence = sentence.join(" ")
   
   
 end
